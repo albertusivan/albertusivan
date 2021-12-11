@@ -1,0 +1,220 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyOIokvwo5LBP3BZmm7oEn5Y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BEBXX/BEBXX/blob/main/COMPUTING%20DEPTH%20FIRST%20SEARCH%20(DFS)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "55n72bBJX3E9"
+      },
+      "source": [
+        "# di vidio ini saya akan menjelaskan implentasi algoritma depth first search menggunakan bahasa pemrograman python 3\n",
+        "\n",
+        "# kita juga akan menggunakan representasi dari adjeny list\n",
+        "\n",
+        "\n",
+        "# yang pertama kita lakukan adalah mengakses libray colection dan mengimport defaultdict\n",
+        "from collections import defaultdict"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bi-owNlXX7gp"
+      },
+      "source": [
+        "class Graph:\n",
+        "\n",
+        "    #inisialisasi\n",
+        "    def __init__(self):\n",
+        "        #menggunakan default dictonary untuk memasukkan graf\n",
+        "        self.graph = defaultdict(list)\n",
+        "\n",
+        "    #fungsi buat nambahin edge\n",
+        "    def addEdge(self, u, v):\n",
+        "        self.graph[u].append(v)\n",
+        " \n",
+        "    #fungsi dfs\n",
+        "    def DFS(self, v, visited):\n",
+        "\n",
+        "        #ngeprint node yang sekarang di kunjungi\n",
+        "        visited.add(v)\n",
+        "        print(v, end=' ')\n",
+        "\n",
+        "        #lakuin perulangan jika vertex yang dikunjungi memiliki lebih dari 1 edge\n",
+        "        for neighbour in self.graph[v]:\n",
+        "            if neighbour not in visited:\n",
+        "                self.DFS(neighbour, visited)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "X54NtNVHYEoq"
+      },
+      "source": [
+        "g = Graph()\n",
+        "g.addEdge(0, 1)\n",
+        "g.addEdge(0, 2)\n",
+        "g.addEdge(1, 2)\n",
+        "g.addEdge(2, 0)\n",
+        "g.addEdge(2, 3)\n",
+        "g.addEdge(3, 4)\n",
+        "g.addEdge(4, 1)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qpq6FM-lbtJQ",
+        "outputId": "c56a58b9-acc9-421c-9637-8947c8dcd335"
+      },
+      "source": [
+        "#ngebuat set untuk menyimpan node yang sudah dikunjungi\n",
+        "visited = set()\n",
+        "g.DFS(0,visited)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0 1 2 3 4 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ksAnSw5boY4k",
+        "outputId": "073a662b-d58d-4f6e-b3ea-75e2fbf60736"
+      },
+      "source": [
+        "visited = set()\n",
+        "g.DFS(1,visited)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 2 0 3 4 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uBL-kFnzoYs4",
+        "outputId": "edb80d30-839b-446e-a88b-3f0bbc7f9328"
+      },
+      "source": [
+        "visited = set()\n",
+        "g.DFS(2,visited)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2 0 1 3 4 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7fY4Kj_goYh9",
+        "outputId": "5e71ca20-569d-4a8e-a40e-4c5a92e913d6"
+      },
+      "source": [
+        "visited = set()\n",
+        "g.DFS(3,visited)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3 4 1 2 0 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xbk9cj50oYVQ",
+        "outputId": "25ef360b-7ca1-49ae-ffa9-048c45c1d693"
+      },
+      "source": [
+        "visited = set()\n",
+        "g.DFS(4,visited)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4 1 2 0 3 "
+          ]
+        }
+      ]
+    }
+  ]
+}
