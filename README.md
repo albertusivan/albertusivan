@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Ivan aka BEBXX
 - 👀 I’m interested in Competitive Programing
-- 🌱 I’m currently learning C++ , HTML
+- 🌱 I’m currently learning Python,C++,Golang,Java
 - 📫 How to reach me via email aimartino42@gmail.com
 
 <!---
