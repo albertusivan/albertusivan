@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ivan aka BEBXX</h1>
-- 🌱 I’m currently learning **laravel , react**
+My name is Albertus Ivan Martino or you can call me BEBXX
+
+- 🌱 I’m currently **learning laravel , react**
 
 - 👨‍💻 All of my projects are available at [https://github.com/BEBXX?tab=repositories](https://github.com/BEBXX?tab=repositories)
 
