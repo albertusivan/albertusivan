@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bebxx&label=Profile%20views&color=00ccff&style=flat-square" alt="bebxx" /> </p>
 
-- 🌱 I’m currently learning **laravel , react**
+- 🌱 I’m currently learning **laravel , Kotlin**
 
 - 👨‍💻 All of my projects are available at [https://github.com/BEBXX?tab=repositories](https://github.com/BEBXX?tab=repositories)
 
