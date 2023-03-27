@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Ivan aka BEBXX</h1>
+<h1 align="center">Hi 👋, I'm Albert aka BEBXX</h1>
 <h3 align="center">My name is Albertus Ivan Martino or you can call me BEBXX</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bebxx&label=Profile%20views&color=00ccff&style=flat-square" alt="bebxx" /> </p>
