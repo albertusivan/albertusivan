@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Albert</h1> -->
+<h1 align="center">Hi 👋, I'm Albert</h1>
 <h3 align="center">My name is Albertus Ivan Martino or you can call me Albert</h3>
 
 - 🔭 I’m currently working on [Config-User-Profile-GitHub](https://github.com/albertusivan/Config-User-Profile-GitHub)
