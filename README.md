@@ -1,17 +1,15 @@
 <h1 align="center">Hi 👋, I'm Albert</h1>
 <h3 align="center">My name is Albertus Ivan Martino or you can call me Albert</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=albertusivan&label=Profile%20views&color=00ccff&style=flat-square" alt="albertusivan" /> </p>
-
 - 🔭 I’m currently working on [Config-User-Profile-GitHub](https://github.com/albertusivan/Config-User-Profile-GitHub)
-
-- 🌱 I’m currently learning **laravel , kotlin , Flutter**
 
 - 🔭 I’m currently working on [RateMe-Cafe-and-Resto-Rate-Application](https://github.com/albertusivan/RateMe-Cafe-and-Resto-Rate-Application)
 
-- 👨‍💻 All of my projects are available at [https://github.com/BEBXX?tab=repositories](https://github.com/BEBXX?tab=repositories)
+- 🌱 I’m currently learning **laravel , kotlin , Flutter**
 
 - 📫 How to reach me **aimartino42@gmail.com**
+
+- 👨‍💻 All of my projects are available at [https://github.com/BEBXX?tab=repositories](https://github.com/BEBXX?tab=repositories)
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/albertus-ivan-martino-206558233/](https://www.linkedin.com/in/albertus-ivan-martino-206558233/)
 
