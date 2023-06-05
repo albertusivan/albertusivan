@@ -1,6 +1,6 @@
 ### Hi there 👋, Albertus Ivan
 #### Mobile Developer
-![Mobile Developer](https://media.licdn.com/dms/image/D5616AQE9HzeXidgEqw/profile-displaybackgroundimage-shrink_350_1400/0/1680281014706?e=1685577600&v=beta&t=J7qZmOvQDvYmEje4HNRGfYcp1z8hJDMZOWrX8UQHjZY)
+![Mobile Developer](https://media.licdn.com/dms/image/D5616AQE9HzeXidgEqw/profile-displaybackgroundimage-shrink_350_1400/0/1680281014706?e=1691625600&v=beta&t=320WrDwTj6fXM1BBaPstKNgcmRzz-ch5Ifam4Aehq_M)
 
 Currently studying as Informatics student at Telkom University 2020 and part of Bangkit Acadamy 2023 Mobile Developer, I'm interest in Mobile Apps Developer, Software Engineer. I studied mobile developer using java and kotlin programming languages ​​for the past two years. I am a reliable person and able to work well individually and as a group.  
 
