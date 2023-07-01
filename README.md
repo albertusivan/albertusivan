@@ -1,17 +1,15 @@
 ### Hi there 👋, Albertus Ivan
-#### Mobile Developer
+#### Software engineering
 ![Mobile Developer](https://media.licdn.com/dms/image/D5616AQE9HzeXidgEqw/profile-displaybackgroundimage-shrink_350_1400/0/1680281014706?e=1691625600&v=beta&t=320WrDwTj6fXM1BBaPstKNgcmRzz-ch5Ifam4Aehq_M)
 
 Currently studying as Informatics student at Telkom University 2020 and part of Bangkit Acadamy 2023 Mobile Developer, I'm interest in Mobile Apps Developer, Software Engineer. I studied mobile developer using java and kotlin programming languages ​​for the past two years. I am a reliable person and able to work well individually and as a group.  
 
 
-Skills: **JAVA** / **KOTLIN** / **PHP** / **PYTHON** / **HTML** / **CSS**
+Skills: **JAVA** / **KOTLIN** / **FLUTTER** / **PYTHON** / **LARAVEL**
 
-- 🌱 I’m currently learning Laravel ,Flutter 
-- 📫 How to reach me: aimartino42@gmail.com 
-
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/albertusivan)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/albertus-ivan-martino-206558233//)      [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/albvn23/?hl=id/)    [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dribbble.svg' alt='dribbble' height='40'>](https://dribbble.com/AlbertusIvan)  
-
+How to reach me:
+- 📧 Email : aimartino42@gmail.com
+- 📄 LinkedIn : [albertus-ivan-martino](https://www.linkedin.com/in/albertus-ivan-martino-206558233/)
+- 💻 Github : [albertusivan](https://github.com/albertusivan)
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=albertusivan&show_icons=true&locale=en&layout=compact" alt="albertusivan" /></p>
